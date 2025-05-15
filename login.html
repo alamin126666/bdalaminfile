@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HACK LOGIN</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh;
+      margin: 0;
+      color: white;
+    }
+
+    img {
+      width: 150px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    }
+
+    input[type="password"] {
+      padding: 10px;
+      border-radius: 8px;
+      border: none;
+      outline: none;
+      font-size: 16px;
+      width: 220px;
+      text-align: center;
+      margin-bottom: 15px;
+      background-color: #ffffffcc;
+      color: #000;
+    }
+
+    button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      background: #00c6ff;
+      background: linear-gradient(to right, #0072ff, #00c6ff);
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      transform: scale(1.05);
+      background: linear-gradient(to right, #00c6ff, #0072ff);
+    }
+  </style>
+</head>
+<body>
+
+  <img src="https://i.postimg.cc/x8wHdY13/IMG-20250508-145040-051.jpg" alt="Logo">
+
+  <input type="password" id="passwordInput" placeholder="Enter password...">
+
+  <button onclick="checkPassword()">HACK LOGIN</button>
+
+  <script>
+    function checkPassword() {
+      const password = document.getElementById('passwordInput').value;
+      if (password === 'BDALAMIN') {
+        window.location.href = 'https://alamin126666.github.io/bdalaminfile/BDALAMINFILE.html';
+      } else {
+        window.location.href = 'https://t.me/BDALAMINHACKER';
+      }
+    }
+  </script>
+
+</body>
+</html>
